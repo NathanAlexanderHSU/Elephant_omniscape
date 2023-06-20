@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --job-name=serialJulia
+#SBATCH--output=SlurmOutput
+
+using Omniscape
+run_omniscape("elephantsClus.ini")
